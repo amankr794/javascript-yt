@@ -1,8 +1,8 @@
 const accountId = 144553
 let accountEmail = "aman@google.com"
 var accountPassword = "12345"
-accountCity = "Jiapur"  //not a good method to declare variable reserve memory i js
-let accountState;
+accountCity = "Jiapur"  //not a good method to declare variable to reserve memory in js
+let accountState; //uninitialized variable
 
 /********** Updating User Information ********/
 
@@ -31,4 +31,6 @@ accountCity = "Bengaluru"
 
 
 //Printing information in Tabular Structure 
+// Syntax: --> console.table([variablename1, variablename2, ...])
+
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
