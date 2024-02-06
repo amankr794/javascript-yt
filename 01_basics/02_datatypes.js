@@ -55,7 +55,10 @@ let state; // it is undefined, only variable is declared, but not assigned any v
 //object
 
 /* typeof --> to find the type of any value, variable */
-console.log(typeof "Aman"); //type --> string
-console.log(typeof age);    //type --> number
-console.log(typeof null);  // type--> object
-console.log(typeof undefined); //type --> undefined
+// console.log(typeof "Aman"); //type --> string
+// console.log(typeof age);    //type --> number
+// console.log(typeof null);  // type--> object
+// console.log(typeof undefined); //type --> undefined
+
+//or we can use typeof() as a method
+console.log(typeof("Aman"));
