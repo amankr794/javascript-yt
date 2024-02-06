@@ -26,7 +26,7 @@ accountCity = "Bengaluru"
 
     in js no any issue of ;
 
-    in js value of initialized variable is undefined
+    in js value of uninitialized variable is undefined
 */
 
 
