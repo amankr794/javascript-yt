@@ -104,5 +104,53 @@ let someNumber = 33
 let stringNumber = String(someNumber)
 console.log(typeof stringNumber)
 console.log(stringNumber)
-
 /* Browser mostly return value into String form and we typecast it into Number, Boolean, Object acc. to our use */
+
+
+
+
+
+// *********************** Operations ***********************
+
+let value = 3
+let negValue = -value
+// console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/3);
+// console.log(2%3);
+
+
+let str1 = "hello"
+let str2 = " hitesh"
+
+let str3 = str1 + str2
+// console.log(str3);
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");    //these are the tricky ques avoid not use in production industry 
+                                //Focus on Code Readability not on tricky questions
+
+// console.log(3 + 4 * 5 % 3);
+// console.log( (3 + 4) * 5 % 3);     //it is better way to write an expression always use ()
+
+// console.log(+true);  //these are all tricky ques in js
+// console.log(true+);
+// console.log(+"");
+
+let num1, num2, num3
+
+num1 = num2 = num3 = 2 + 2   //don;t declare variable like this
+
+let gameCounter = 100
+++gameCounter;
+console.log(gameCounter);
+
+// do more practice on prefix and postfix from mdmdocs : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
+// link to study
+// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
